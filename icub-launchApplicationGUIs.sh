@@ -6,7 +6,7 @@ echo "Starting iCub GUIs..."
 #-------------------------------------------
 
 #echo "icub cluster"
-icub-cluster.py cluster-config-TUD.xml &
+icub-cluster.py cluster-config-NANCY.xml &
 
 #echo "gyarpmanager ..."
 yarpmanager &
