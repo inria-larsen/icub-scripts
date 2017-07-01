@@ -9,7 +9,7 @@ echo "Starting iCub GUIs..."
 icub-cluster.py cluster-config-NANCY.xml &
 
 #echo "gyarpmanager ..."
-yarpmanager &
+#yarpmanager &
 
 
 

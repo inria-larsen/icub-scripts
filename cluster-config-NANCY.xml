@@ -1,6 +1,6 @@
 <cluster name="iCubNancy01" user="icub">
 
-<nameserver namespace="/iCubNancy01" node="icubsrv"> </nameserver>
+<nameserver namespace="/iCubNancy01" node="icub01"> </nameserver>
 
 <!-- 
 HOW TO ADD NEW MACHINES
