@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+#Exec=gnome-terminal --command="ssh -X pc104" --window-with-profile=pc104
+Exec=gnome-terminal --command="icub-cluster.py cluster-config-NANCY.xml" 
+Name=icub-cluster
+Comment=comment here
+Icon=/home/icub/software/src/icub-scripts/cluster.png
+
+
+

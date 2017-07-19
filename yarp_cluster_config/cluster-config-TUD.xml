@@ -1,0 +1,32 @@
+<cluster name="iCubDarmstadt01" user="icub">
+
+<nameserver namespace="/iCubDarmstadt01" node="stroustrup"> </nameserver>
+
+<!-- 
+HOW TO ADD NEW MACHINES
+
+(1) <node>NAMEOFMACHINE</node>
+(2) <node display=":0.0">NAMEOFMACHINE</node>
+
+(1) machines that cannot display GUIS, typically cluster machines 
+(2) machines that must display GUIS, typically big TV or the console
+
+of course all machines must:
+
+* have YARP installed
+* have the same version of YARP
+* have ssh password-less connection enabled, through exchange of ssh public keys
+* the name of the machine must be registered
+-->
+
+<node>pc104</node>
+<node display=":0.0">tomlinson</node>
+<node display=":0.0">stroustrup</node>
+
+</cluster>
+
+
+
+
+
+
